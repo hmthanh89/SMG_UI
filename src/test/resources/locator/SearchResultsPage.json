@@ -1,0 +1,7 @@
+{
+	"any.chrome": {
+		"eleSearchResults": "xpath=//h1[text()='Search results']",
+		"eleSearchResultsInfo": "xpath=//div[@class='mw-search-results-info']",
+		"eleSearchResultsItem": "xpath=//ul[@class='mw-search-results']/li"
+		}
+}

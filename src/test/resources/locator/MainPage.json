@@ -1,0 +1,6 @@
+{
+	"any.chrome": {
+		"txtSearch": "xpath=//input[@name='search']",
+		"eleSearchForPageContaining": "xpath=//li[a//span[text()='Search for pages containing ']]"	
+	}
+}

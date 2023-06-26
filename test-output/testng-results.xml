@@ -1,0 +1,181 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="2" passed="2" failed="0" skipped="0">
+  <reporter-output>
+    <line>
+      <![CDATA[<b>INFO: </b>Precondition: Initial Data]]>
+    </line>
+    <line>
+      <![CDATA[<b>INFO: </b>1. Navigate to https://en.wikipedia.org/wiki/Main_Page.]]>
+    </line>
+    <line>
+      <![CDATA[<b>INFO: </b>2. Enter a valid single-word text in the Search textbox.]]>
+    </line>
+    <line>
+      <![CDATA[<b>INFO: </b>3. Select the 'Search for pages containing <text>']]>
+    </line>
+    <line>
+      <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: orange">VERIFY POINT: </i>Text is displayed "There is a page named "keyword" on Wikipedia.</b>]]>
+    </line>
+    <line>
+      <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: #00af00">PASS </i></b>]]>
+    </line>
+    <line>
+      <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: orange">VERIFY POINT: </i>The search results include entries that match the entered text.</b>]]>
+    </line>
+    <line>
+      <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: #00af00">PASS </i></b>]]>
+    </line>
+    <line>
+      <![CDATA[<b>INFO: </b>Post Condition: Clean up.]]>
+    </line>
+    <line>
+      <![CDATA[<b>INFO: </b>Precondition: Initial Data]]>
+    </line>
+    <line>
+      <![CDATA[<b>INFO: </b>1. Navigate to https://en.wikipedia.org/wiki/Main_Page.]]>
+    </line>
+    <line>
+      <![CDATA[<b>INFO: </b>2. Enter a valid single-word text in the Search textbox.]]>
+    </line>
+    <line>
+      <![CDATA[<b>INFO: </b>3. Select the 'Search for pages containing <text>']]>
+    </line>
+    <line>
+      <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: orange">VERIFY POINT: </i>Text "There were no results matching the query." is displayed.</b>]]>
+    </line>
+    <line>
+      <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: #00af00">PASS </i></b>]]>
+    </line>
+    <line>
+      <![CDATA[<b>INFO: </b>Post Condition: Clean up.]]>
+    </line>
+  </reporter-output>
+  <suite started-at="2023-06-26T21:04:29 ICT" name="Suite" finished-at="2023-06-26T21:05:22 ICT" duration-ms="53002">
+    <groups>
+    </groups>
+    <test started-at="2023-06-26T21:04:29 ICT" name="Run Chrome - wikipedia" finished-at="2023-06-26T21:05:22 ICT" duration-ms="53002">
+      <class name="tests.web.TS_Search">
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.web.TS_Search@564fabc8]" started-at="2023-06-26T21:04:29 ICT" name="beforeMethod" finished-at="2023-06-26T21:04:52 ICT" duration-ms="23136" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[any]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_F_01()[pri:0, instance:tests.web.TS_Search@564fabc8]" started-at="2023-06-26T21:04:52 ICT" name="TC_F_01" description="Search for a valid text with single word and verify the search results." finished-at="2023-06-26T21:04:56 ICT" duration-ms="3664" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>INFO: </b>Precondition: Initial Data]]>
+            </line>
+            <line>
+              <![CDATA[<b>INFO: </b>1. Navigate to https://en.wikipedia.org/wiki/Main_Page.]]>
+            </line>
+            <line>
+              <![CDATA[<b>INFO: </b>2. Enter a valid single-word text in the Search textbox.]]>
+            </line>
+            <line>
+              <![CDATA[<b>INFO: </b>3. Select the 'Search for pages containing <text>']]>
+            </line>
+            <line>
+              <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: orange">VERIFY POINT: </i>Text is displayed "There is a page named "keyword" on Wikipedia.</b>]]>
+            </line>
+            <line>
+              <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: #00af00">PASS </i></b>]]>
+            </line>
+            <line>
+              <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: orange">VERIFY POINT: </i>The search results include entries that match the entered text.</b>]]>
+            </line>
+            <line>
+              <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: #00af00">PASS </i></b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_F_01 -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:tests.web.TS_Search@564fabc8]" started-at="2023-06-26T21:04:56 ICT" name="cleanUp" finished-at="2023-06-26T21:04:56 ICT" duration-ms="310" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_F_01 status=SUCCESS method=TS_Search.TC_F_01()[pri:0, instance:tests.web.TS_Search@564fabc8] output=<b>INFO: </b>Precondition: Initial Data]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<b>INFO: </b>Post Condition: Clean up.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+        <test-method is-config="true" signature="beforeMethod(java.lang.String,java.lang.String,java.lang.String)[pri:0, instance:tests.web.TS_Search@564fabc8]" started-at="2023-06-26T21:04:56 ICT" name="beforeMethod" finished-at="2023-06-26T21:05:18 ICT" duration-ms="22138" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[chrome.local]]>
+              </value>
+            </param>
+            <param index="1">
+              <value>
+                <![CDATA[any]]>
+              </value>
+            </param>
+            <param index="2">
+              <value>
+                <![CDATA[default]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- beforeMethod -->
+        <test-method signature="TC_F_10()[pri:0, instance:tests.web.TS_Search@564fabc8]" started-at="2023-06-26T21:05:18 ICT" name="TC_F_10" description="Search for a non-existent word and verify no search results." finished-at="2023-06-26T21:05:21 ICT" duration-ms="2339" status="PASS">
+          <reporter-output>
+            <line>
+              <![CDATA[<b>INFO: </b>Precondition: Initial Data]]>
+            </line>
+            <line>
+              <![CDATA[<b>INFO: </b>1. Navigate to https://en.wikipedia.org/wiki/Main_Page.]]>
+            </line>
+            <line>
+              <![CDATA[<b>INFO: </b>2. Enter a valid single-word text in the Search textbox.]]>
+            </line>
+            <line>
+              <![CDATA[<b>INFO: </b>3. Select the 'Search for pages containing <text>']]>
+            </line>
+            <line>
+              <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: orange">VERIFY POINT: </i>Text "There were no results matching the query." is displayed.</b>]]>
+            </line>
+            <line>
+              <![CDATA[<b style="color: blue;word-break:break-word;"><i style="color: #00af00">PASS </i></b>]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- TC_F_10 -->
+        <test-method is-config="true" signature="cleanUp(org.testng.ITestResult)[pri:0, instance:tests.web.TS_Search@564fabc8]" started-at="2023-06-26T21:05:21 ICT" name="cleanUp" finished-at="2023-06-26T21:05:22 ICT" duration-ms="1185" status="PASS">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[[TestResult name=TC_F_10 status=SUCCESS method=TS_Search.TC_F_10()[pri:0, instance:tests.web.TS_Search@564fabc8] output=<b>INFO: </b>Precondition: Initial Data]]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+            <line>
+              <![CDATA[<b>INFO: </b>Post Condition: Clean up.]]>
+            </line>
+          </reporter-output>
+        </test-method> <!-- cleanUp -->
+      </class> <!-- tests.web.TS_Search -->
+    </test> <!-- Run Chrome - wikipedia -->
+  </suite> <!-- Suite -->
+</testng-results>
