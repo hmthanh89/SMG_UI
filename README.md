@@ -25,7 +25,6 @@ This repository contains a Selenium Framework designed for web application testi
 	- Open your preferred IDE and import the project as a Maven project.
 4. Execute Tests:
 	- UI Test: Right click on ui_test.xml and select 'Run as TestNG Suite'.<br />
-	- API Test: Right click on api_test.xml and select 'Run as TestNG Suite'.<br />
 	- xml files are placed at 'src/test/resources/suites'<br />
 5. View Test Reports:
 	- After test execution, the framework generates detailed test reports. Access the generated reports to view the test results, including any failures or errors encountered.<br />
